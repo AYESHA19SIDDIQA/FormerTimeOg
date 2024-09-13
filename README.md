@@ -39,7 +39,31 @@ For more detailed params, please refer to args.py
 
 ### Further Reading
 
-1, [**TimeMAE: Self-supervised Representation of Time Series with Decoupled Masked Autoencoders**](https://arxiv.org/pdf/2303.00320).
+1, [**Convtimenet: A deep hierarchical fully convolutional model for multivariate time series analysis**](https://arxiv.org/pdf/2403.01493).
+**Authors**: Cheng, Mingyue and Yang, Jiqian and Pan, Tingyue and Liu, Qi and Li, Zhi
+
+```bibtex
+@article{cheng2024convtimenet,
+  title={Convtimenet: A deep hierarchical fully convolutional model for multivariate time series analysis},
+  author={Cheng, Mingyue and Yang, Jiqian and Pan, Tingyue and Liu, Qi and Li, Zhi},
+  journal={arXiv preprint arXiv:2403.01493},
+  year={2024}
+}
+```
+
+2, [**InstructTime: Advancing Time Series Classification with Multimodal Language Modeling**](https://arxiv.org/pdf/2403.12371).
+**Authors**: Cheng, Mingyue and Chen, Yiheng and Liu, Qi and Liu, Zhiding and Luo, Yucong
+
+```bibtex
+@article{cheng2024advancing,
+  title={Advancing Time Series Classification with Multimodal Language Modeling},
+  author={Cheng, Mingyue and Chen, Yiheng and Liu, Qi and Liu, Zhiding and Luo, Yucong},
+  journal={arXiv preprint arXiv:2403.12371},
+  year={2024}
+}
+```
+
+3, [**TimeMAE: Self-supervised Representation of Time Series with Decoupled Masked Autoencoders**](https://arxiv.org/pdf/2303.00320).
 **Authors**: Mingyue Cheng, Qi Liu*, Zhiding Liu, Hao Zhang, Rujiao Zhang, Enhong Chen
 
 ```bibtex
@@ -51,7 +75,7 @@ For more detailed params, please refer to args.py
 }
 ```
 
-2, [**CrossTimeNet: Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model**](https://arxiv.org/pdf/2403.12372).
+4, [**CrossTimeNet: Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model**](https://arxiv.org/pdf/2403.12372).
 **Authors**: Cheng, Mingyue and Tao, Xiaoyu and Liu, Qi and Zhang, Hao and Chen, Yiheng and Lei, Chenyi
 
 ```bibtex
@@ -63,17 +87,6 @@ For more detailed params, please refer to args.py
 }
 ```
 
-3, [**InstructTime: Advancing Time Series Classification with Multimodal Language Modeling**](https://arxiv.org/pdf/2403.12371).
-**Authors**: Cheng, Mingyue and Chen, Yiheng and Liu, Qi and Liu, Zhiding and Luo, Yucong
-
-```bibtex
-@article{cheng2024advancing,
-  title={Advancing Time Series Classification with Multimodal Language Modeling},
-  author={Cheng, Mingyue and Chen, Yiheng and Liu, Qi and Liu, Zhiding and Luo, Yucong},
-  journal={arXiv preprint arXiv:2403.12371},
-  year={2024}
-}
-```
 
 
 
