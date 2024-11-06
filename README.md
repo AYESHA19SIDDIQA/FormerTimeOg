@@ -1,7 +1,7 @@
 <div align="center">
   <!-- <h1><b> Time-LLM </b></h1> -->
   <!-- <h2><b> Time-LLM </b></h2> -->
-  <h2><b> (WWW2023) FormerTime: Hierarchical Multi-scale Representation for Multivariate Time Series Classification </b></h2>
+  <h2><b>  FormerTime: Hierarchical Multi-scale Representation for Multivariate Time Series Classification (WWW2023) </b></h2>
 </div>
 
 ---
