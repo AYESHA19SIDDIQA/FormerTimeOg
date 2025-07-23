@@ -41,22 +41,20 @@ parser.add_argument('--weight_decay', type=float, default=0.01)
 parser.add_argument('--num_epoch', type=int, default=100)
 
 args = parser.parse_args()
-if args.data_path is None:
-    Train_data, Test_data = load_UCR(folder=args.UCR_folder)
-    args.num_class = len(set(Train_data[1]))
-    args.loss = 'ce'
-else:
-    path = args.data_path
-    Train_data, Test_data = load_UCR(path, folder=args.UCR_folder)
-    args.num_class = len(set(Train_data[1]))
-    args.loss = 'ce'
+
+# Load data from .npy files using updated load_UCR
+Train_data, Test_data = load_UCR()
+
+args.num_class = len(set(Train_data[1]))  # y_train
+args.loss = 'ce'
 
 args.eval_per_steps = max(1, int(len(Train_data[0]) / args.train_batch_size))
 args.lr_decay_steps = args.eval_per_steps
+
 if not os.path.exists(args.save_path):
     os.makedirs(args.save_path)
-config_file = open(args.save_path + '/args.json', 'w')
-tmp = args.__dict__
-json.dump(tmp, config_file, indent=1)
+
+with open(args.save_path + '/args.json', 'w') as config_file:
+    json.dump(vars(args), config_file, indent=1)
+
 print(args)
-config_file.close()
